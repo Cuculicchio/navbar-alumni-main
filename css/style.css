@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    
+    
+}
+main{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: rgb(255,222,222);
+    background: radial-gradient(circle, rgba(255,222,222,1) 11%, rgba(255,0,0,1) 73%);
+    border: solid 1px grey;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+.header{
+    background: red;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+}
+
+.logo{
+display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+max-width: 992px;
+margin: 0 auto;
+
+}
+
+.enlace{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    z-index: 1000;
+}
+.slider{
+    z-index: 30;
+}
+.lista{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.enlace{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.enlace:hover{
+    background-color: white;
+    color: red;
+}
+
+.burga{
+    cursor: pointer;
+    
+}
+.mostrar{
+    left: 0;
+}
+.mostrarM{
+    visibility: visible;
+}
+.d-item{
+    height: 600px;
+    
+}
+.d-img{
+    width:100%;
+    height: 100%;
+  object-fit:cover;
+  
+}
+.hero{
+    width: 100%;
+}
+
+.texto{
+    text-align: justify;
+}
+.texto h1{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    color: azure;
+}
+.grid-container div{
+background-color: red;
+margin: 10px;
+text-align: center;
+
+}
+.footer2{
+    
+}
+@media(max-width:900px){
+    .header{
+        background: red;
+        height: 80px;
+        display: flex;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .nav-menu{
+        display: block;
+        margin-right: 40px;
+        background-color: red;
+        min-width: 50px;
+
+     
+        list-style: none;
+    }
+    .lista{
+        background-color: red;
+        
+    }
+    .nav{
+        background-color: red;
+    }
+    .nav-menu{
+        visibility: hidden;
+        background-color: red;
+        width: 100%;
+       
+    }
+    li.lista{
+        background-color: red;
+        width: 100%;
+        
+        
+    }
+    .mostrarM{
+        visibility: visible;
+    }
+    .img{
+        width: 600px !important;
+        height: auto !important;
+         
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        background-color: white;
+        color: azure;
+    }
+    .grid-container div{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: red;
+    
+    }
+}
