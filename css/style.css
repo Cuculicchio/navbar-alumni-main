@@ -6,7 +6,8 @@
 
 body{
     font-family: sans-serif;
-    padding: 90px 20px 0;
+    padding: 90px 0px 0;
+    
     
     
 }
@@ -120,6 +121,31 @@ text-align: center;
 
 }
 .footer2{
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod;
+    height: 100px;
+
+}
+.nav-menu1{
+    display: block;
+    margin-right: 40px;
+    background-color: red;
+    min-width: 50px;
+
+    display: none;
+    list-style: none;
+}
+.subMenu{
+    .nav-menu1{
+        display: block;
+        margin-right: 40px;
+        background-color: red;
+        min-width: 50px;
+    
+        
+        list-style: none;
+    }
     
 }
 @media(max-width:900px){
