@@ -148,6 +148,22 @@ text-align: center;
     }
     
 }
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    color: azure;
+    height: 200px;
+    
+}
+.grid-container1 div{
+background-color: red;
+
+text-align: center;
+
+}
+
+
 @media(max-width:900px){
     .header{
         background: red;
