@@ -163,6 +163,27 @@ text-align: center;
 
 }
 
+/*styles formulario contacto*/
+ .main-form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+ }
+ .contact-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: info  mensaje;
+    gap:10px;
+    width: 600px;
+    height: auto;
+    border: 1px solid;
+    
+    
+ }
+
+
 
 @media(max-width:900px){
     .header{
@@ -209,17 +230,36 @@ text-align: center;
         height: auto !important;
          
     }
+    footer{
+        display: grid;
+        grid-row: auto;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: 1fr;
         
         background-color: white;
         color: azure;
+        
     }
     .grid-container div{
     text-align: center;
     margin-bottom: 10px;
     background-color: red;
+   
+
     
+    }
+    .grid-container1{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+        color: azure;
+        position:relative;
+    }
+    .grid-container1 div{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: red;
     }
 }
